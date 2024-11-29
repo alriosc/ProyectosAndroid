@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DivisasApp</string>
+    <string-array name="currency_array">
+        <item>USD</item>
+        <item>PEN</item>
+        <item>MXN</item>
+        <item>EUR</item>
+    </string-array>
+</resources>
