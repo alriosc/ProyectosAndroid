@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppDivisas</string>
+
+    <string-array name="currency_array">
+        <item>Soles a Dólares</item>
+        <item>Dólares a Soles</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ComboBox para seleccionar la divisa -->
+    <Spinner
+        android:id="@+id/spinner_currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/currency_array"/>
+
+    <!-- TextView para el monto a convertir -->
+    <TextView
+        android:id="@+id/textView_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monto:"/>
+
+    <!-- EditText para ingresar el monto -->
+    <EditText
+        android:id="@+id/editText_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <!-- Botón para realizar la conversión -->
+    <Button
+        android:id="@+id/button_convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertir"/>
+
+    <!-- TextView para mostrar el resultado -->
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+</LinearLayout>
