@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_nombre_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Producto"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_precio_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio" />
+
+    <TextView
+        android:id="@+id/text_stock_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock disponible" />
+
+    <TextView
+        android:id="@+id/text_descripcion_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción del Producto" />
+</LinearLayout>
+

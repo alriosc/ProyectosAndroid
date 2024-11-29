@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_nombre_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Usuario" />
+
+    <EditText
+        android:id="@+id/edit_apellidos_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos del Usuario" />
+
+    <EditText
+        android:id="@+id/edit_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de Usuario" />
+
+    <EditText
+        android:id="@+id/edit_contrasena_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edit_rol_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rol (admin, cliente, productor)" />
+
+    <Button
+        android:id="@+id/btn_agregar_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Usuario" />
+
+    <Button
+        android:id="@+id/btn_actualizar_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Usuario" />
+
+    <Button
+        android:id="@+id/btn_eliminar_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Usuario" />
+
+    <ListView
+        android:id="@+id/lista_usuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_nombre_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Producto" />
+
+    <EditText
+        android:id="@+id/edit_precio_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio del Producto"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edit_stock_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stock del Producto"
+        android:inputType="number" />
+
+    <!-- Campo para la descripción del producto -->
+    <EditText
+        android:id="@+id/edit_descripcion_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción del Producto" />
+
+    <Button
+        android:id="@+id/btn_agregar_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Producto" />
+
+    <Button
+        android:id="@+id/btn_actualizar_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Producto" />
+
+    <Button
+        android:id="@+id/btn_eliminar_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Producto" />
+
+    <ListView
+        android:id="@+id/lista_productos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
