@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#b6b6b6</color>
+
+    <!-- Definición del color amarillo -->
+    <color name="yellow">#FFC107</color> <!-- Puedes ajustar este valor al tono que desees -->
+
+    <!-- Colores personalizados para el diseño del MainActivity -->
+    <color name="background_light">#F8F8F8</color> <!-- Fondo claro -->
+    <color name="colorAccent">#FFC107</color> <!-- Color del botón de logout (Amarillo) -->
+
+    <!-- Otros colores opcionales que puedes usar -->
+    <color name="text_primary">#212121</color> <!-- Color principal del texto -->
+    <color name="text_secondary">#757575</color> <!-- Color secundario del texto -->
+</resources>
